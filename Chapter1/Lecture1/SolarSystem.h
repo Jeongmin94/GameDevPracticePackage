@@ -9,16 +9,22 @@ class SolarSystem : public Game2D {
 public:
     void update() override
     {
-        rotate(time * 60.0f);
-        drawFilledStar(Colors::gold, 0.2f, 0.13f); // Sun
+        const vec2 earth(0.5f, 0.0f);
+        const vec2 moon(0.2f, 0.0f);
 
-        rotate(time * 60.0f * 1.5f);
-        translate(0.5f, 0.0f);
-        drawFilledCircle(Colors::blue, 0.1f); // Earth
+        beginTransformation();
+        {
+            rotate(time * 60.0f);
+            drawFilledStar(Colors::gold, 0.2f, 0.13f); // Sun
 
-        rotate(time * 150.0f);
-        translate(0.2f, 0.0f);
-        drawFilledCircle(Colors::yellow, 0.05f); // Moon
+            translate(earth);
+            drawFilledStar(Colors::blue, 0.1f, 0.05f); // Earth
+
+            rotate(time * 60.0f);
+            translate(moon);
+            drawFilledStar(Colors::yellow, 0.05f, 0.025f); // Moon
+            endTransformation();
+        }
 
         time += this->getTimeStep();
     }
