@@ -23,8 +23,8 @@ public:
             rotate(time * 60.0f);
             translate(moon);
             drawFilledStar(Colors::yellow, 0.05f, 0.025f); // Moon
-            endTransformation();
         }
+        endTransformation();
 
         time += this->getTimeStep();
     }
