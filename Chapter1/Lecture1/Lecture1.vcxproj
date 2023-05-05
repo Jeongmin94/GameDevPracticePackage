@@ -152,6 +152,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RotatingStarExample.cpp" />
     <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="TransformationExample.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DrawFunctions.h" />
@@ -164,6 +165,7 @@
     <ClInclude Include="SolarSystem.h" />
     <ClInclude Include="TankExample.h" />
     <ClInclude Include="Timer.h" />
+    <ClInclude Include="TransformationExample.h" />
     <ClInclude Include="Vector2.h" />
     <ClInclude Include="Vector3.h" />
     <ClInclude Include="WalkingPerson.h" />

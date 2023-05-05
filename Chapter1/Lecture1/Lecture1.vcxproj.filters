@@ -33,6 +33,9 @@
     <ClCompile Include="RotatingStarExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TransformationExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vector2.h">
@@ -72,6 +75,9 @@
       <Filter>Examples</Filter>
     </ClInclude>
     <ClInclude Include="RotatingStarExample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformationExample.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
