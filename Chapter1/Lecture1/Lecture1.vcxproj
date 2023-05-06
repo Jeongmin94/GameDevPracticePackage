@@ -150,6 +150,7 @@
     <ClCompile Include="DrawFunctions.cpp" />
     <ClCompile Include="Game2D.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyFaceExample.cpp" />
     <ClCompile Include="RotatingStarExample.cpp" />
     <ClCompile Include="Timer.cpp" />
     <ClCompile Include="TransformationExample.cpp" />
@@ -158,6 +159,7 @@
     <ClInclude Include="DrawFunctions.h" />
     <ClInclude Include="FaceExample.h" />
     <ClInclude Include="Game2D.h" />
+    <ClInclude Include="MyFaceExample.h" />
     <ClInclude Include="PrimitivesGallery.h" />
     <ClInclude Include="RGB.h" />
     <ClInclude Include="Colors.h" />
