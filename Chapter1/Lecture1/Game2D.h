@@ -36,7 +36,7 @@ private:
     bool draw_grid = true;
 
 public:
-    Game2D() { std::cout << "Game2D constructor called" << std::endl; }
+    Game2D() {}
 
     Game2D(const std::string &_title, const int &_width, const int &_height,
            const bool &use_full_screen = false, const int &display_ix = 0);
