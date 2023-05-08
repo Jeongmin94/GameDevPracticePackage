@@ -35,7 +35,7 @@ public:
 class MyTank : public TE {
 public:
     // vec2 direction = vec2(1.0f, 0.0f, 0.0f);
-
+    
     void draw()
     {
         beginTransformation();
