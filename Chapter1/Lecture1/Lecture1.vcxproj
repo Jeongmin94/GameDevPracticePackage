@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CursorStar.cpp" />
     <ClCompile Include="DrawFunctions.cpp" />
     <ClCompile Include="Game2D.cpp" />
     <ClCompile Include="main.cpp" />
@@ -156,6 +157,7 @@
     <ClCompile Include="TransformationExample.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CursorStar.h" />
     <ClInclude Include="DrawFunctions.h" />
     <ClInclude Include="FaceExample.h" />
     <ClInclude Include="Game2D.h" />
