@@ -162,6 +162,7 @@
     <ClInclude Include="CursorStar.h" />
     <ClInclude Include="DrawFunctions.h" />
     <ClInclude Include="FaceExample.h" />
+    <ClInclude Include="Follow.h" />
     <ClInclude Include="Game2D.h" />
     <ClInclude Include="MyFaceExample.h" />
     <ClInclude Include="PrimitivesGallery.h" />

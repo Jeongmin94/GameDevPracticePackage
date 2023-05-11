@@ -98,5 +98,8 @@
     <ClInclude Include="BlueCircle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Follow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
