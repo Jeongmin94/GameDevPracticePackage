@@ -84,5 +84,8 @@
     <ClInclude Include="Rotator.h">
       <Filter>Geometric</Filter>
     </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Geometric</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

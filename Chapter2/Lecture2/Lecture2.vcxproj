@@ -42,6 +42,7 @@
     <ClInclude Include="Engine\Vector3.h" />
     <ClInclude Include="Examples\PrimitivesGallery.h" />
     <ClInclude Include="GeometricObject.h" />
+    <ClInclude Include="Mouse.h" />
     <ClInclude Include="Rotator.h" />
     <ClInclude Include="Star.h" />
     <ClInclude Include="Triangle.h" />
