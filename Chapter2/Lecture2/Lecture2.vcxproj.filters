@@ -11,6 +11,18 @@
     <ClCompile Include="Engine\Timer.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>Geometric</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Engine">
@@ -18,6 +30,9 @@
     </Filter>
     <Filter Include="Examples">
       <UniqueIdentifier>{498f79f5-70d6-4e49-80b3-c68f5c210a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometric">
+      <UniqueIdentifier>{d093e824-cc74-466c-8823-b92f53da2e78}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -47,6 +62,21 @@
     </ClInclude>
     <ClInclude Include="Examples\PrimitivesGallery.h">
       <Filter>Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricObject.h">
+      <Filter>Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>Geometric</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

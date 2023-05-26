@@ -19,12 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="Circle.cpp" />
     <ClCompile Include="Engine\DrawFunctions.cpp" />
     <ClCompile Include="Engine\Game2D.cpp" />
     <ClCompile Include="Engine\Timer.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Star.cpp" />
+    <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="Circle.h" />
     <ClInclude Include="Engine\Colors.h" />
     <ClInclude Include="Engine\DrawFunctions.h" />
     <ClInclude Include="Engine\Game2D.h" />
@@ -34,6 +40,9 @@
     <ClInclude Include="Engine\Vector2.h" />
     <ClInclude Include="Engine\Vector3.h" />
     <ClInclude Include="Examples\PrimitivesGallery.h" />
+    <ClInclude Include="GeometricObject.h" />
+    <ClInclude Include="Star.h" />
+    <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
