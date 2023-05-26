@@ -1,9 +1,10 @@
 #pragma once
 
 #include "GeometricObject.h"
+#include "Rotator.h"
 
 namespace jm {
-class Star : public GeometricObject {
+class Star : public GeometricObject, Rotator {
 private:
     const float innerRadius;
     const float outerRadius;
